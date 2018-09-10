@@ -1,8 +1,10 @@
 import React from 'react'
-import { Icon } from 'semantic-ui-react'
+import { Icon, Segment } from 'semantic-ui-react'
 
 const AddCard = () => (
-  <Icon name='plus square' size='big' color='green' />
+  <Segment basic>
+    <Icon name='plus square' size='big' color='green' />
+  </Segment>
 )
 
 export default AddCard

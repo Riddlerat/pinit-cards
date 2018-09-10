@@ -10,8 +10,8 @@ const StoryCard = () => (
         <Header.Content>Create X thing</Header.Content>
       </Header>
       <Card.Description>3</Card.Description>
-      <Button floated='right' color='black'>
-        <Icon name='trash' />
+      <Button floated='right' color='red'>
+        Done
       </Button>
     </Card.Content>
   </Card>

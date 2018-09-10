@@ -5,13 +5,13 @@ const TaskCard = () => (
   <Card raised style={{backgroundColor:'#e2faff'}} >
     <Card.Content textAlign='center'>
       <Icon name='thumbtack' size='big' color='grey' />
-      <Header as='h2'>
+      <Header as='h3'>
         <Icon name='sticky note outline' />
-        <Header.Content>Research X thing</Header.Content>
+        <Header.Content>Create X thing</Header.Content>
       </Header>
-      <Card.Description>3</Card.Description>
+      <Card.Description>Task info here</Card.Description>
       <Button color='red' floated='right'>
-        Rip up
+        Done
       </Button>
     </Card.Content>
   </Card>
