@@ -2,7 +2,7 @@ import React from 'react'
 import { Icon } from 'semantic-ui-react'
 
 const AddCard = () => (
-  <Icon link name='plus square outline' size='large' />
+  <Icon name='plus square' size='big' color='green' />
 )
 
 export default AddCard
